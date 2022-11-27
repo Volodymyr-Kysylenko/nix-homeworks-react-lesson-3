@@ -548,10 +548,6 @@ textarea {
     font-size: 16px;
   }
 
-  .taskInput {
-    font-size: 12px;
-  }
-
   .titleInput, .taskInput {
     width: 82%;
   }

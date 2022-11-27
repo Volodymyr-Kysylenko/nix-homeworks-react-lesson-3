@@ -60,7 +60,7 @@ function App() {
     clearSorting();
   }
 
-  const removeTask = (id) => {
+  function removeTask(id) {
     setTodos([...todos.filter((todo) => todo.id !== id)])
   }
 

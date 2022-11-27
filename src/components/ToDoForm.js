@@ -12,7 +12,7 @@ function ToDoForm(props) {
         setTask(event.currentTarget.value);
     }
 
-    function handleSubmit(event) {
+    function addTask(event) {
         event.preventDefault();
         props.add(title, task);
         props.close();
@@ -25,7 +25,7 @@ function ToDoForm(props) {
             <h2>
                 Add new task:
             </h2>
-            <form className='toDoForm' onSubmit={handleSubmit}>
+            <form className='toDoForm' onSubmit={addTask}>
                 <label>
                     Title
                 </label>
